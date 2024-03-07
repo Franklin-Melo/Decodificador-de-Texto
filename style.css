@@ -1,0 +1,157 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color:  #F3F5FC;
+  
+}
+
+header{
+  width: 100%;
+  height: 70px;
+}
+.logo{
+  width: 120px;
+  height: 48px;
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.conteiner{
+  position: absolute;
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.placeholder{
+  position: absolute;
+  top: 80px;
+  left: 100px;
+  width: 400px;
+  height: 48px;
+  font-size: 32px;
+  color: #0A3871;
+  background-color: #F3F5FC;
+  border: none;
+}
+.placeholder::placeholder{
+  color: #0A3871
+}
+.alerta{
+  position: absolute;
+  padding-left: 100px;
+  padding-top: 300px;
+  display: flex;
+  width: 228px;
+  height: 18px;
+  opacity: 0.8;
+  font-size: 12px;
+  color: #495057;
+  gap: 8px;
+}
+.imagematencao{
+  width: 16px;
+  height: 16px;
+  color: #495057;
+}
+.botoes{
+  position: absolute;
+  top: 350px;
+  display: flex;
+  padding-left: 100px;
+  gap: 8px;
+}
+.btn__criptografar{
+  width: 328px;
+  height: 67px;
+  border-radius: 24px;
+  padding: 24px;
+  background-color: #0A3871;
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  
+}
+.btn__descriptografar{
+  width: 328px;
+  height: 67px;
+  border-radius: 24px;
+  padding: 24px;
+  background-color: #0A3871;
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+.sessao2{
+  width: 336px;
+  height: 450px;
+  margin-right: 20px;
+  background: #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 32px;
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.50);
+
+}
+.boneco{
+  position: absolute;
+}
+.mensagem{
+  position: absolute;
+  top: 300px;
+  padding-left: 70px;
+}
+.centralizar{
+  margin-left: 40px;
+}
+
+.resultado{
+  position: absolute;
+  bottom: 330px;
+  width: 320px;
+  height: 450px;
+  padding: 0;
+  box-sizing: border-box;
+  margin-left: 25px;
+}
+
+.resultado p{
+  color: #495057;
+  font-size: 25px;
+}
+.texto-resultado{
+  position: absolute;
+  bottom: 330px;
+  width: 320px;
+  height: 450px;
+  padding: 0;
+  box-sizing: border-box;
+  margin-left: 25px;
+}
+
+.botao-copiar{
+  display: flex;
+  position: absolute;
+  bottom: 15px;
+  padding-left: 125px;
+}
+
+.btn__copiar{
+  width: 100px;
+  height: 50px;  
+  border-radius: 10px;
+  background-color: #ffffff;
+  color: #0A3871;
+  font-size: 16px;
+  border: 1px solid #0A3871;
+  cursor: pointer;
+}
+
+.ocultar{
+  display: none;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Decodificador de texto</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <img class="logo" src="/img/logo.svg" alt="logo">
+  </header>
+
+  <main class="conteiner">
+    <section class="sessao1">
+      <div class="texto">
+        <textarea placeholder="Digite aqui seu texto" class="placeholder"></textarea>
+      </div>
+      <div class="alerta">
+        <img class="imagematencao" src="/img/atencao.svg" alt="ponto de esclamacao">
+        <p class="paragrafo">Apenas letras minúsculas e sem acento.</p>
+      </div>
+      <div class="botoes">
+        <input type="button" class="btn__criptografar" onclick="btnCriptografar()" value="Criptografar">
+        <input type="button" class="btn__descriptografar" onclick="btnDescriptografar()" value="Descriptografar">
+      </div>
+    </section>
+    <section class="sessao2">
+      <div class="boneco">
+        <img src="/img/boneco.svg" alt="boneco">
+      </div>
+      <div class="mensagem">
+        <h3>Nenhuma mensagem <br><span class="centralizar">encontrada</span></h3>
+        <p>Digite um texto que você deseja <br>criptografar ou descriptografar</p>
+      </div>
+      <div class="botao-copiar">
+        <input type="button" class="btn__copiar" onclick="copiarTexto()" value="Copiar">
+
+      </div>
+      <div class="resultado">
+        <p class="texto-resultado"></p>
+      </div>
+    </section>
+
+  </main>
+  <script src="app.js"></script>
+
+</body>
+
+</html>
