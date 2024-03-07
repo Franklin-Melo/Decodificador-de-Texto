@@ -12,7 +12,6 @@ let matriz = [
 function btnCriptografar() {
   const texto = placeholder.value;
   const textoCriptografado = criptografar(texto);
-  // mensagem.innerHTML = `<h3>Mensagem Criptografada</h3><p>${textoCriptografado}</p>`;
   mensagem.innerHTML = textoCriptografado;
   placeholder.value = "";
 
@@ -33,7 +32,6 @@ function criptografar(string) {
 function btnDescriptografar() {
   const texto = placeholder.value;
   const textoDescriptografado = descriptografar(texto);
-  // mensagem.innerHTML = `<h3>Mensagem Criptografada</h3><p>${textoCriptografado}</p>`;
   mensagem.innerHTML = textoDescriptografado;
   placeholder.value = "";
 }
@@ -58,18 +56,7 @@ function copiarTexto() {
   navigator.clipboard.writeText(textoCriptografado);
 }
 
-// const btnCopiar = document.querySelector(".btn__copiar");
-// btnCopiar.addEventListener("click", copiarTexto);
 
-
-
-
-
-
-
-// let teste = "texto de teste"
-
-// console.log(criptografar(teste))
 
 
 
